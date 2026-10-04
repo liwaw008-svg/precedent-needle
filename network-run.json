@@ -1,0 +1,34 @@
+{
+  "casebookId": "STUDIO-1791127238",
+  "precedentId": "REPAIR-1791127238",
+  "comparisonId": "MENDING-1791127238",
+  "transactions": {
+    "casebook": "0x24fb146635249458e757a84dcb2310a04bcf03050c5d54e7b53d0e447f7ba8b5",
+    "precedent": "0x90f4ad32625228b89c73f1b2c71a4b1e0b1f402a9340e3de4078f10719009806",
+    "comparison": "0xae63aae1a08310a7cef1cce8059135d463be82b635c5e6fbf27f2aec22052c0c",
+    "review": "0x1198afa6ffc564d47d5189444e2d9a2c55431acaa22cf9097b3ceabfd4656f6f",
+    "align": "0x17400c58fea6c84f4f840b773bda6f1cd4f3bf30d935674587c9322ad06d5423"
+  },
+  "state": {
+    "amended": true,
+    "case_digest": "cbe4a0d7080a89e7747bdcafa8f68b42b6e97b586f5b961c63ceb26146143db3",
+    "case_url": "https://raw.githack.com/liwaw008-svg/precedent-needle/39570dfa8a77edad42af8113b32fe96650594ce6/evidence/current-case.md",
+    "casebook_id": "STUDIO-1791127238",
+    "deadline": 1791128216,
+    "different_indexes": [],
+    "id": "MENDING-1791127238",
+    "policy_digest": "de704d03d6d7766be4b722b05c95702c1592f230dbd07ea95a512a129e28c16a",
+    "precedent_digest": "28c6039e5f3a95ab2c7a11192fc41bdd88c87c8fa3fd07403705990fa915366c",
+    "precedent_id": "REPAIR-1791127238",
+    "proposed_outcome": "ALLOW",
+    "proposer": "0x013A0745a3b2DbF87f4AB377266fCcb7e6eEC88A",
+    "same_indexes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "state": "CONSISTENT"
+  },
+  "walletDisclosure": "All demo wallets and source fixtures are operator-controlled."
+}

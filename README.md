@@ -20,6 +20,14 @@ all dimensions same + different outcome -> INCONSISTENT
 
 The proposer may align one inconsistent outcome to the precedent. An abandoned pending comparison expires permissionlessly. Precedents can be retired only by the casebook owner, without rewriting historical comparisons.
 
+## Filed result
+
+The deployed folio lives at `0x35B89Fb8d0ade0dee063Dc38Adb9E4b8dDdCa26d` on StudioNet.
+
+In comparison `MENDING-1791127238`, validators marked all four frozen dimensions materially the same. Contract code therefore treated the proposed `DENY` as `INCONSISTENT`. The proposer aligned it once to the precedent's `ALLOW`, producing a final `CONSISTENT` record in transaction `0x17400c58fea6c84f4f840b773bda6f1cd4f3bf30d935674587c9322ad06d5423`.
+
+The role boundary has its own network proof: `0x8bee106e384366b56642b32d8fe91fc198b057f23fc96d9bd46fcf10392197e5` finalized with the expected `ERROR` when a non-auditor attempted review.
+
 ## Reproduce the folio
 
 1. Lint: `$env:PYTHONIOENCODING='utf-8'; genvm-lint contracts/contract.py`
@@ -28,3 +36,5 @@ The proposer may align one inconsistent outcome to the precedent. An abandoned p
 4. Run the recorded comparison: `python scripts/smoke.py`
 
 All fixture records and demo wallets are controlled by one operator. Distinct addresses and hosts demonstrate authorization and source attribution only.
+
+The deployment, successful folio, expected rejection, and source-binding manifest are kept as separate JSON records for review.

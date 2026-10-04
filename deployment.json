@@ -1,0 +1,10 @@
+{
+  "account": "liwaw008-svg",
+  "network": "StudioNet",
+  "contractAddress": "0x35B89Fb8d0ade0dee063Dc38Adb9E4b8dDdCa26d",
+  "deploymentTransaction": "0x84d220274690b74d4ba2b614e703dc48af1c77ef114be847cf1775fa010de4a4",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "a12e2ef4b6fe84653183bdccf7af96b6efbd0c33a32600e40af543636a55f8fe",
+  "repository": "https://github.com/liwaw008-svg/precedent-needle"
+}

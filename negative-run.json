@@ -1,0 +1,8 @@
+{
+  "guard": "only the designated auditor may review",
+  "setupTransaction": "0x23559b22caf50d5bb3514253ade084f572c02121585c93436754c6081685c381",
+  "rejectedTransaction": "0x8bee106e384366b56642b32d8fe91fc198b057f23fc96d9bd46fcf10392197e5",
+  "consensus": "MAJORITY_AGREE",
+  "execution": "ERROR",
+  "expectedMarker": "[EXPECTED]"
+}
